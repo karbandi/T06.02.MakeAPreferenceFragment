@@ -18,11 +18,13 @@ package android.example.com.visualizerpreferences;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.example.com.visualizerpreferences.AudioVisuals.AudioInputReader;
 import android.example.com.visualizerpreferences.AudioVisuals.VisualizerView;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -42,12 +44,14 @@ public class VisualizerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visualizer);
         mVisualizerView = (VisualizerView) findViewById(R.id.activity_visualizer);
-        defaultSetup();
+        setupSharedPreferences();
         setupPermissions();
     }
 
-    private void defaultSetup() {
-        mVisualizerView.setShowBass(true);
+    private void setupSharedPreferences() {
+        SharedPreferences sharedPreferences= PreferenceManager.getDefaultSharedPreferences(this);
+
+        mVisualizerView.setShowBass(sharedPreferences.getBoolean("ShowBass",true));
         mVisualizerView.setShowMid(true);
         mVisualizerView.setShowTreble(true);
         mVisualizerView.setMinSizeScale(1);
