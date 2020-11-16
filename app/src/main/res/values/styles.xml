@@ -7,7 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <!-- Completed (6) Add a theme for the preference -->
-        <item name="preferenceStyle">@style/PreferenceThemeOverlay</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
     </style>
 
 </resources>
