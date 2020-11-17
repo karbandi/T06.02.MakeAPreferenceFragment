@@ -10,4 +10,24 @@
         android:title="@string/Show_bass">
 
     </CheckBoxPreference>
+    <CheckBoxPreference
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:defaultValue="@bool/pref_show_mid_default"
+        android:key="@string/pref_ShowMid_key"
+        android:summaryOff="@string/hidden"
+        android:summaryOn="@string/shown"
+        android:title="@string/ShowMid">
+
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:defaultValue="@bool/pref_show_treble_default"
+        android:key="@string/pref_ShowTreble_key"
+        android:summaryOff="@string/hidden"
+        android:summaryOn="@string/shown"
+        android:title="@string/pref_Show_Treble_lable">
+
+    </CheckBoxPreference>
 </PreferenceScreen>

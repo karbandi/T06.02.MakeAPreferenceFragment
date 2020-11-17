@@ -19,4 +19,8 @@
     <string name="hidden">Hidden</string>
     <string name="shown">Shown</string>
     <string name="pref_shared_keyshow_bass" translatable="false">show_bass</string>
+    <string name="ShowMid">ShowMid</string>
+    <string name="pref_ShowMid_key" translatable="false">show_mid</string>
+    <string name="pref_ShowTreble_key" translatable="false">show_treble</string>
+    <string name="pref_Show_Treble_lable">ShowTreble</string>
 </resources>
