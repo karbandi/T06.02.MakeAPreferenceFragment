@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_color_option_lable">
+        <item>@string/pref_color_red_lable</item>
+        <item>@string/pref_color_green_lable</item>
+        <item>@string/pref_color_blue_lable</item>
+       <!-- <item>@string/pref_color_cyan_lable</item>
+       -->
+    </array>
+
+    <array name="pref_color_option_value">
+        <item>@string/pref_color_red_value</item>
+        <item>@string/pref_color_green_value</item>
+        <item>@string/pref_color_blue_value</item>
+        <!--   <item>@string/pref_color_cyan_value</item>
+        -->
+      </array>
+  </resources>

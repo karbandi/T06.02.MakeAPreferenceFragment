@@ -30,4 +30,13 @@
         android:title="@string/pref_Show_Treble_lable">
 
     </CheckBoxPreference>
+
+    <ListPreference
+        android:defaultValue="@string/pref_color_red_value"
+        android:entries="@array/pref_color_option_lable"
+        android:entryValues="@array/pref_color_option_value"
+        android:key="@string/pref_color_key"
+        android:title="@string/shape_color_lable">
+
+    </ListPreference>
 </PreferenceScreen>

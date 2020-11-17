@@ -7,14 +7,25 @@
           - Used by Preferences  -
           - - - - - - - - - - - - - - - -->
 
-    <!-- Value in SharedPreferences for red color option -->
+    <!--
+   List Preference
+   !-->
+
+    <!-- Value and lable in SharedPreferences for red color option -->
     <string name="pref_color_red_value" translatable="false">red</string>
+    <string name="pref_color_red_lable" >Red</string>
 
     <!-- Value in SharedPreferences for blue color option -->
     <string name="pref_color_blue_value" translatable="false">blue</string>
+    <string name="pref_color_blue_lable">Blue</string>
 
     <!-- Value in SharedPreferences for green color option -->
     <string name="pref_color_green_value" translatable="false">green</string>
+    <string name="pref_color_green_lable">Green</string>
+
+   <!-- <string name="pref_color_cyan_value" translatable="false">black</string>
+    <string name="pref_color_cyan_lable">Cyan</string>
+-->
     <string name="Show_bass">Show Bass</string>
     <string name="hidden">Hidden</string>
     <string name="shown">Shown</string>
@@ -23,4 +34,9 @@
     <string name="pref_ShowMid_key" translatable="false">show_mid</string>
     <string name="pref_ShowTreble_key" translatable="false">show_treble</string>
     <string name="pref_Show_Treble_lable">ShowTreble</string>
+
+
+    <string name="pref_color_key" translatable="false">color</string>
+
+    <string name="shape_color_lable">Shape Color</string>
 </resources>
