@@ -18,4 +18,5 @@
     <string name="Show_bass">Show Bass</string>
     <string name="hidden">Hidden</string>
     <string name="shown">Shown</string>
+    <string name="pref_shared_keyshow_bass" translatable="false">show_bass</string>
 </resources>

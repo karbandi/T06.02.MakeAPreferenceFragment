@@ -3,8 +3,8 @@
     <CheckBoxPreference
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:defaultValue="true"
-        android:key="show_bass"
+        android:defaultValue="@bool/pref_show_bass_default"
+        android:key="@string/pref_shared_keyshow_bass"
         android:summaryOff="@string/hidden"
         android:summaryOn="@string/shown"
         android:title="@string/Show_bass">
