@@ -43,7 +43,7 @@ public class VisualizerActivity extends AppCompatActivity  implements SharedPref
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visualizer);
-        mVisualizerView = (VisualizerView) findViewById(R.id.activity_visualizer);
+        mVisualizerView = findViewById(R.id.activity_visualizer);
         setupSharedPreferences();
         setupPermissions();
     }
