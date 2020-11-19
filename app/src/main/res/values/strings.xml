@@ -39,4 +39,9 @@
     <string name="pref_color_key" translatable="false">color</string>
 
     <string name="shape_color_lable">Shape Color</string>
+
+    <!-- size prefrence -->
+    <string name="pref_size_key" translatable="false">size</string>
+    <string name="pref_size_lable">Size Multiplier</string>
+    <string name="pref_size_default" translatable="false">1</string>
 </resources>

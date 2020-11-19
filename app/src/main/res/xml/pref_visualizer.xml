@@ -39,4 +39,8 @@
         android:title="@string/shape_color_lable">
 
     </ListPreference>
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_default"
+        android:key="@string/pref_size_key"
+        android:title="@string/pref_size_lable" />
 </PreferenceScreen>
